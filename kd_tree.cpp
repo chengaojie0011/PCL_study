@@ -1,12 +1,11 @@
 #include "stdafx.h"
-#include "iostream"
-
-//#include <pcl/point_types.h> //PCL对各种格式的点的支持头文件 
-#include <pcl/point_cloud.h>
-#include <pcl/kdtree/kdtree_flann.h>
 #include <iostream>
 #include <vector>
 #include <ctime>
+
+#include <pcl/point_types.h> //PCL对各种格式的点的支持头文件 
+#include <pcl/point_cloud.h>
+#include <pcl/kdtree/kdtree_flann.h>
 #include <pcl/visualization/cloud_viewer.h>  //点云显示库函数
 #include <pcl/visualization/pcl_visualizer.h>//点云显示库函数
 using namespace std;
